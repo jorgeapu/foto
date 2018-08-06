@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'DancingScript';
+  src: url('DancingScript-Regular.otf');
+  }
+
+body{
+  font-family: 'DancingScript';
+  background-color: #02010a;
+}
+
+header{
+  width:100%;
+  height: 100px;
+  overflow:hidden;
+  background: #5b7989;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0px;
+  color: white;
+
+}
+
+header h1{
+  float: left;
+  font-size: 30px;
+  line-height: 70px;
+  text-shadow: 2px 2px black;
+
+}
+
+header nav {
+ float: right;
+  line-height: 100px;
+  text-shadow: 2px 2px black;
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+}
+nav a{
+
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+   color: white;
+   padding: 10px;
+   font-size: 25px;
+}
+
+.contenido {
+  max-width: 900px;
+  text-align: center;
+  padding-left: 15%;
+  animation: slidein 2s;
+}
+
+@-webkit-keyframes slidein{
+
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 2%;
+	padding: 2%;
+	text-align: center;
+  height: 400px;
+  background-color: #d5c75f;
+
+}
+
+  article img{
+    width: 25%;
+    border: solid 2px black;
+    margin: 18px;
+  }
+
+  footer{
+   background-color: #C6d5c5;
+   display: flex;
+   clear: both;
+   font-size: 15px;
+   text-align: justify;
+   padding-bottom: 4%;
+   border-radius: 0px 0px 10px 10px;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    padding-top: 0px;
+  }
+  h3 {
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+
+.contacto{
+  width: 25%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.terminos{
+width: 25%;
+margin: 0 auto;
+padding-left: 2%;
+padding-top: 1%;
+padding-bottom: 2%;
+
+}
+.redessociales{
+  width: 25%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.derechosreservados{
+  width: 25%;
+  margin: 0 auto;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 900px){
+header{
+height: 300px;
+}
+
+article{
+  height: 80%;
+}
+article img{
+  width: 80%;
+  background-color: #d5c75f;
+}
+
+
+
+footer{
+  display: block;
+  height: 20%;
+}
+
+.derechosreservados{
+  padding-left: 50px;
+  height: 80%;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+  .redessociales{
+    padding-left: 50px;
+    height: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .terminos{
+    padding-left: 50px;
+    height: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contacto{
+    padding-left: 50px;
+    height: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
